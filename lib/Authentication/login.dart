@@ -35,7 +35,7 @@ class _LoginState extends State<Login> {
                     padding: EdgeInsets.symmetric(horizontal: 10,vertical: 5),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(5),
-                      color: Colors.deepPurple.withOpacity(.1),
+                      color: Colors.deepPurple.withValues(alpha: .1),
                     ),
                     child: TextFormField(
                       controller: username,
@@ -57,7 +57,7 @@ class _LoginState extends State<Login> {
                     padding: EdgeInsets.symmetric(horizontal: 10,vertical: 5),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(5),
-                      color: Colors.deepPurple.withOpacity(.1),
+                      color: Colors.deepPurple.withValues(alpha: .1),
                     ),
                     child: TextFormField(
                       controller: password,
